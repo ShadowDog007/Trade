@@ -212,6 +212,9 @@ public class ItemExchange {
 		
 		p1.closeInventory();
 		p2.closeInventory();
+
+		p1.updateInventory();
+		p2.updateInventory();
 			
 	}
 
@@ -232,6 +235,9 @@ public class ItemExchange {
 
 		p1.closeInventory();
 		p2.closeInventory();
+
+		p1.updateInventory();
+		p2.updateInventory();
 					
 	}
 
